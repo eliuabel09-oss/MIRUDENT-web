@@ -240,7 +240,7 @@ const ReviewsSection = () => {
             <div ref={hRef} className={`rv-hdr${hVis ? ' rv-hv' : ''}`}>
               <h2>Nuestros pacientes<br /><em>nos hablan</em></h2>
               <p className="rv-hdr-desc">
-                En <strong>Clínica Villalta | Odontología Especializada</strong>, tu salud dental está en las mejores manos. La confianza de nuestros pacientes nos impulsa a brindar siempre el mayor profesionalismo en Sullana.
+                En <strong>Clínica MIRUDENT | Odontología Especializada</strong>, tu salud dental está en las mejores manos. La confianza de nuestros pacientes nos impulsa a brindar siempre el mayor profesionalismo en Sullana.
               </p>
             </div>
 

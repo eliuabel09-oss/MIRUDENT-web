@@ -18,9 +18,9 @@ const faqs = [
   { q: '¿Atienden niños?',                  a: 'Sí, contamos con atención especializada en odontopediatría. Creamos un ambiente cómodo y amigable para los más pequeños de la familia.' },
   { q: '¿Cuánto dura la ortodoncia?',       a: 'Depende del caso, pero generalmente entre 12 y 24 meses. Realizamos controles mensuales para asegurar el avance correcto.' },
   { q: '¿Duele el blanqueamiento?',         a: 'No. Usamos geles de alta calidad que protegen el esmalte y minimizan la sensibilidad. El procedimiento es seguro y muy cómodo.' },
-  { q: '¿Cómo agendar una cita?',           a: 'Por WhatsApp al 949 021 141, por teléfono o mediante nuestro formulario. Respondemos en menos de una hora en horario de atención.' },
+  { q: '¿Cómo agendar una cita?',           a: 'Por WhatsApp al 926 226 443, por teléfono o mediante nuestro formulario. Respondemos en menos de una hora en horario de atención.' },
   { q: '¿Aceptan tarjetas de crédito?',     a: 'Sí, aceptamos todas las tarjetas y ofrecemos facilidades de pago en tratamientos largos. Nuestros presupuestos son transparentes y sin costos ocultos.' },
-  { q: '¿Cuál es el horario?',              a: 'Lunes a Sábado de 9:00 a.m. a 7:00 p.m. Atendemos con cita previa en nuestra clínica en Sullana, Piura.' },
+  { q: '¿Cuál es el horario?',              a: 'Lunes a Sábado de 8:00 a.m. a 1:00 p.m. y 3:00 p.m. a 8:00 p.m. Atendemos con cita previa en nuestra clínica en Sullana, Piura.' },
   { q: '¿Qué llevar a la primera visita?',  a: 'Solo tu DNI y, si las tienes, radiografías recientes. Nosotros nos encargamos del resto para darte un diagnóstico completo desde el primer día.' },
 ];
 

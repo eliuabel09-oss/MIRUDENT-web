@@ -266,7 +266,7 @@ const AboutSection = () => {
             <div className="ab-text">
 
               <div className="ab-eyebrow">
-                <span className="ab-eyebrow-txt">Sobre Villalta</span>
+                <span className="ab-eyebrow-txt">Sobre MIRUDENT</span>
               </div>
 
               <h2 className="ab-h2">
@@ -276,7 +276,7 @@ const AboutSection = () => {
 
               <div className="ab-body">
                 <p>
-                  En <strong>Villalta</strong>, combinamos tecnología dental de última generación con un trato cálido y cercano para brindarte resultados excepcionales en Sullana.
+                  En <strong>MIRUDENT</strong>, combinamos tecnología dental de última generación con un trato cálido y cercano para brindarte resultados excepcionales en Sullana.
                 </p>
                 <p>
                   Nuestro equipo está dedicado a hacer cada visita cómoda y personalizada, construyendo relaciones duraderas basadas en la confianza y la excelencia clínica.
