@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --color-teal: #0099CC;
+  --color-naranja: #F28C28;
+  --color-verde: #7BC67E;
+  --color-fondo: #F8FFFE;
+  --color-gris-oscuro: #111827;
+  --color-gris-medio: #6B7280;
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui;
+}
+
+/* Global responsive improvements */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Ensure no horizontal overflow on mobile */
+body {
+  overflow-x: hidden;
+}
+
+/* Touch improvements for interactive elements */
+@media (max-width: 768px) {
+  button, a {
+    -webkit-tap-highlight-color: transparent;
+  }
+}

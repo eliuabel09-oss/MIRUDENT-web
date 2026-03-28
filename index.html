@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/assets/mirudent.webp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Clínica Dental Villalta en Sullana, Piura. Ortodoncia, blanqueamiento, implantes y más. Atención personalizada con tecnología avanzada." />
+
+    <!-- dns-prefetch Firebase (solo al hacer clic en Google Login) -->
+    <link rel="dns-prefetch" href="https://mirudent-dental.firebaseapp.com" />
+
+    <!-- Preload hero LCP — máxima prioridad -->
+    <link rel="preload" as="image"
+      href="/assets/hero-odontologia.webp"
+      fetchpriority="high"
+      type="image/webp" />
+
+    <!-- Preload fuentes críticas self-hosted -->
+    <link rel="preload" as="font" type="font/woff2" href="/fonts/dmsans-600.woff2" crossorigin />
+    <link rel="preload" as="font" type="font/woff2" href="/fonts/inter-400.woff2" crossorigin />
+
+    <!-- Fuentes: carga no bloqueante -->
+    <link rel="stylesheet" href="/fonts/fonts.css" media="print" onload="this.media='all'" />
+    <noscript><link rel="stylesheet" href="/fonts/fonts.css" /></noscript>
+
+    <!-- CSS crítico inline para eliminar request bloqueante -->
+    <style>
+      *,*::before,*::after{box-sizing:border-box}
+      html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+      body{margin:0;padding:0;overflow-x:hidden;-webkit-font-smoothing:antialiased;background:#F8FFFE}
+      img{max-width:100%;height:auto}
+      #root{min-height:100vh}
+    </style>
+
+    <title>MIRUDENT | Clínica Dental Sullana</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
